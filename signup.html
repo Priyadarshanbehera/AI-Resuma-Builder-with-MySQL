@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="contener">
+    <div class="auth-card">
+        <h2>Creat Account </h2>
+        <p class="sub-text">
+            Start your Jornny with AI Resuma builder 
+        </p>
+        <form action="" method="post">
+            <input type="email" name="Email" placeholder="Creat your Email" required>
+            <input type="password" name="Password" placeholder="Creat your Password"required>
+            <p class="sub-text">Plase enter your password within 10 latters </p>
+            <button type="submit">Sign UP</button>
+            <!-- <input type="text" name="Name" placeholder="Enter your Name "required> -->
+        </form>
+        <p class="switch-auth">
+            Already have account <a href="/login">login</a>
+        </p>
+    </div>
+</div>
+{% endblock %}
